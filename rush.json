@@ -433,6 +433,12 @@
     {
       "packageName": "light-controller-color-controller",
       "projectFolder": "src/feature/ColorController/code",
+      "reviewCategory": "feature",
+      "tags": ["feature"]
+    },
+    {
+      "packageName": "light-controller-web",
+      "projectFolder": "src/project/Web/code",
       "reviewCategory": "project",
       "tags": ["project"]
     }
