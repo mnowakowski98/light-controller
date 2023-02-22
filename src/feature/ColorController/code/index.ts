@@ -33,9 +33,9 @@ board.on('ready', () => {
     const colorClamp = 255;
 
     board.loop(200, () => {
-        redLeds.brightness(currentColor.red % colorClamp);
-        greenLeds.brightness(currentColor.green % colorClamp);
-        blueLeds.brightness(currentColor.blue % colorClamp);
+        redLeds.brightness(currentColor.red);
+        greenLeds.brightness(currentColor.green);
+        blueLeds.brightness(currentColor.blue);
     });
 });
 
