@@ -1,5 +1,5 @@
 import { Board, Led } from "johnny-five";
-import { EtherPortClient } from 'etherport-client';
+import { EtherPortClient } from 'light-controller-etherport-client';
 
 import Color from './color';
 

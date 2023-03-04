@@ -1,0 +1,17 @@
+{
+  "name": "light-controller-etherport-client",
+  "version": "1.0.0",
+  "description": "Dummy types for etherport client",
+  "main": "",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./etherport-client.d.ts",
+  "devDependencies": {
+    "@types/node": "~18.14.4",
+    "typescript": "~4.9.5"
+  }
+}

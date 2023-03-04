@@ -4,13 +4,16 @@
     "license": "ISC",
     "author": "Matthew Nowakowski",
     "main": "dist/index.js",
+    "types": "./etherport-client.d.ts",
     "scripts": {
         "build": "npx tsc",
         "start": "node ."
     },
     "devDependencies": {
         "typescript":"~4.9.5",
-        "@types/johnny-five":"~1.3.7"
+        "@types/johnny-five":"~1.3.7",
+        "light-controller-etherport-client": "workspace:1.0.0",
+        "@types/node": "~18.14.4"
     },
     "dependencies": {
       "johnny-five": "~2.1.0",
